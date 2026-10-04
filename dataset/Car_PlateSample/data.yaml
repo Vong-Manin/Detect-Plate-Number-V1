@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ["Plate Number"]
+
+roboflow:
+  workspace: cambodia-plate-number
+  project: plate-number-gvljh
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cambodia-plate-number/plate-number-gvljh/dataset/3
